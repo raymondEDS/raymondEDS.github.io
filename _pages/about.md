@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website! My name is Raymond and I am an engineer, machine learning researcher, and most importantly an **educator**. Feel free to check out my [LinkedIn](https://www.linkedin.com/in/raymondzeds/) or [GitHub](https://github.com/raymondEDS) and do not be afraid to reach out if you have any questions or potential collaborations! I am open to collaborating in machine learning in my domain expertise (NLP, Computer Vision, Causal Inference, Experimental Design, Supply Chain, Education), teaching public speaking, or software development work. 
+Welcome to my website! My name is Raymond and I am an engineer, machine learning researcher, and most importantly an **educator**. Feel free to check out my [LinkedIn](https://www.linkedin.com/in/raymondzeds/) or [GitHub](https://github.com/raymondEDS) and do not be afraid to reach out if you have any questions or potential collaborations! I am open to collaborating on machine learning work in my domain expertise (NLP, Computer Vision, Causal Inference, Experimental Design, Supply Chain, Education), teaching public speaking, or software development work. 
 
 Work Experience
 ======
