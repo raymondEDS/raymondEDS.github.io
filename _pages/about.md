@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website! My name is Raymond and I am an engineer, machine learning researcher, and most importantly an **educator**. Feel free to check out my [LinkedIn](https://www.linkedin.com/in/raymondzeds/) and my [GitHub](https://github.com/raymondEDS) and do not be afraid to reach out if you have any questions or potential collaborations! I am open to collaborating in machine learning in my domain expertise (NLP, Supply Chain, Education), teaching public speaking, or software development work. 
+Welcome to my website! My name is Raymond and I am an engineer, machine learning researcher, and most importantly an **educator**. Feel free to check out my [LinkedIn](https://www.linkedin.com/in/raymondzeds/) or [GitHub](https://github.com/raymondEDS) and do not be afraid to reach out if you have any questions or potential collaborations! I am open to collaborating in machine learning in my domain expertise (NLP, Computer Vision, Causal Inference, Experimental Design, Supply Chain, Education), teaching public speaking, or software development work. 
 
 Work Experience
 ======
-Professionally, I have worked as an engineer in the supply chain/logistics/manufacturing domain for 5+ years! I started my full-time career on the front lines of manufacturing lines at [3M](https://www.3m.com/) as an operations engineer, then worked my way to corporate where I became the manufacturing lead for a global supply chain. In 2020, I made a career change to software engineering working on warehouse management systems (WMS) for [Chewy.com](https://www.chewy.com/). Currently, I work as an advanced specialist developer (senior-level software engineer) for [Resmed](https://www.resmed.com/en-us/) as the lead developer for the WMS system.
+Professionally, I have worked as an engineer in the supply chain/logistics/manufacturing domain for 5+ years! I started my full-time career on the front lines of manufacturing lines at [3M](https://www.3m.com/) as an operations engineer, then worked my way to corporate where I became the manufacturing lead for a global supply chain. In 2020, I made a career change to software engineering working on warehouse management systems (WMS) for [Chewy.com](https://www.chewy.com/). Currently, I work as the lead developer [Resmed](https://www.resmed.com/en-us/)'s WMS.
 
 Research Experience
 ======
@@ -23,5 +23,11 @@ Prior to graduate school, I worked with Professor [BoDong Chen](https://www.gse.
 
 Teaching Experience
 ------
-Debate coach, Minnetonka High School. Students won. Stanford STHEM, MingHua Chinese School. New Partnership with SR20.
+Most importantly, I have worked directly with students ranging from 6th grade to high school seniors as a coach/mentor since 2018. I was the Speech and Debate program advisor for Minnetonka High School where my team won the [2019 Schools of Excellence in Debate](https://www.speechanddebate.org/wp-content/uploads/2019-School-Awards-Updated.pdf) at the National Speech and Debate Association National Tournament. It was a great privilege to work with students who placed 3rd in Nationals, 2nd in State, 1st MDTA Cup, 6 regional champions, and 2 MN Debate Student of the Year.
+
+During graduate school, I taught 2 summers at [Minnesota Minghua Chinese School](https://www.minghuaedu.org/) and the Stanford [STHEM](https://compression.stanford.edu/outreach/shtem-summer-internships-high-schoolers-and-community-college-students) where my mentees published their own independent research paper on [child's emotional literacy](https://theinformaticists.com/2022/10/03/improving-childrens-social-and-emotional-literacy-using-nlp-based-emotional-detection/).
+
+I am excited to announce a new collaboration with SR20 to promote english public speaking and professional development in foreign language learning context!
+
+I have been blessed by working with so many brilliant students who moved on to become great scientists, business leaders, doctors, and many yet to find their calling! 
 
