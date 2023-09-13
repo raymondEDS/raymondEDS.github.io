@@ -27,7 +27,7 @@ Most importantly, I have worked directly with students ranging from 6th grade to
 
 During graduate school, I taught 2 summers at [Minnesota Minghua Chinese School](https://www.minghuaedu.org/) and the Stanford [STHEM](https://compression.stanford.edu/outreach/shtem-summer-internships-high-schoolers-and-community-college-students) where my mentees published their own independent research paper on [child's emotional literacy](https://theinformaticists.com/2022/10/03/improving-childrens-social-and-emotional-literacy-using-nlp-based-emotional-detection/).
 
-I am excited to announce a new collaboration with SR20 to promote english public speaking and professional development in foreign language learning context!
+I am excited to announce a new collaboration with [SR20](https://www.sr20academy.com/public-speaking-and-debating-program) to promote english public speaking and professional development in a foreign language learning context!
 
 I have been blessed by working with so many brilliant students who moved on to become great scientists, business leaders, doctors, and many yet to find their calling! 
 
