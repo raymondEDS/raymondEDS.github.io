@@ -4,7 +4,7 @@ collection: teaching
 type: "Middle School"
 permalink: /teaching/Public_narration
 venue: "MingHua Chinese School"
-date: 2022 & 2023
+date: 2022-2023
 location: "Minnesota, USA"
 ---
 
