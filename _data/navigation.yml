@@ -1,7 +1,9 @@
 # main links links
 main:
-  - title: "Teaching"
-    url: /teaching/   
+ # - title: "Teaching"
+ #   url: /teaching/   
+   - title: "SR20 Academy"
+    url: https://www.sr20academy.com/public-speaking-and-debating-program   
     
   - title: "Research"
     url: /publications/
@@ -14,7 +16,6 @@ main:
     
   - title: "Industry Experience"
     url: /cv/
-  - title: "SR20 Academy"
-    url: https://www.sr20academy.com/public-speaking-and-debating-program   
+
   #- title: "Guide"
   #  url: /markdown/
