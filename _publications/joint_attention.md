@@ -1,7 +1,7 @@
 ---
 title: "Joint Attention, Computer Vision, Foundation Models: How state-of-the-art AI approaches can analyze instances of early childhood development"
 collection: talks
-permalink: /publication/joint_attention.md
+permalink: /publication/joint_attention
 excerpt: 'In this work, we develop a pipeline that identifies instances of joint attention by using three different computer vision models, Constrative Language-Image Pre-training (CLIP), a 2D joint attention detector, and a monocular depth estimation model, to reconstruct the 3D coordinates of the caregiver, child, and object of focus.'
 date: 2023-05-01
 venue: 'IHD Flash Talks'
