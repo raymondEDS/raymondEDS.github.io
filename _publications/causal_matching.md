@@ -3,7 +3,7 @@ title: "Causal Matching with Text Embeddings: A Case Study in Estimating the Cau
 collection: publications
 permalink: /publication/causal_matching
 excerpt: 'To address this textual confounding, we extend variable ratio nearest neighbor matching to incorporate text embeddings.'
-date: 2023-07
+date: 2023-07-09
 venue: 'Findings of the Association for Computational Linguistics: ACL 2023'
 paperurl: 'https://aclanthology.org/2023.findings-acl.83/
 
