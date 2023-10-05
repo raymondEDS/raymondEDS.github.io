@@ -12,7 +12,7 @@ Welcome to my website! My name is Raymond and I am an engineer, machine learning
 
 Work Experience
 ======
-Professionally, I have worked as an engineer in the supply chain/logistics/manufacturing domain for 5+ years! I started my full-time career on the front lines of manufacturing lines at [3M](https://www.3m.com/) as an operations engineer, then worked my way to corporate where I became the manufacturing lead for a global supply chain. In 2020, I made a career change to software engineering working on warehouse management systems (WMS) for [Chewy.com](https://www.chewy.com/). Currently, I work as the lead developer [Resmed](https://www.resmed.com/en-us/)'s WMS.
+Professionally, I have worked as an engineer in the supply chain/logistics/manufacturing domain for 5+ years! I started my full-time career on the front lines of manufacturing lines at [3M](https://www.3m.com/) as an operations engineer, then worked my way to corporate where I became the manufacturing lead for a global supply chain. In 2020, I made a career change to software engineering working on warehouse management systems (WMS) for [Chewy.com](https://www.chewy.com/). Currently, I work as the lead developer for [Resmed](https://www.resmed.com/en-us/)'s WMS.
 
 Research Experience
 ======
