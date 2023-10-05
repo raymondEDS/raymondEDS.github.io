@@ -14,8 +14,8 @@ main:
  # - title: "Blog Posts"
   #  url: /year-archive/
     
-  - title: "Industry Experience"
-    url: /cv/
+  - title: "Book Time With me"
+    url: https://calendly.com/raymondeds/15min
 
   #- title: "Guide"
   #  url: /markdown/
