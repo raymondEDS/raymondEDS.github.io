@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Eloquent Algorithm Consultancy!"
+title: "Welcome to My Site!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
