@@ -23,7 +23,7 @@ Prior to graduate school, I worked with Professor [BoDong Chen](https://www.gse.
 
 Teaching Experience
 ------
-Most importantly, I have worked directly with students ranging from 6th grade to high school seniors as a coach/mentor since 2018. I was the Speech and Debate program advisor for Minnetonka High School where my team won the [2019 Schools of Excellence in Debate](https://www.speechanddebate.org/wp-content/uploads/2019-School-Awards-Updated.pdf) at the National Speech and Debate Association National Tournament. It was a great privilege to work with students who placed 3rd in Nationals, 2nd in State, 1st MDTA Cup, 6 regional champions, and 2 MN Debate Student of the Year.
+Most importantly, I have worked directly with students ranging from 6th grade to high school seniors as a coach/mentor since 2013. I was the Speech and Debate program advisor for Minnetonka High School where my team won the [2019 Schools of Excellence in Debate](https://www.speechanddebate.org/wp-content/uploads/2019-School-Awards-Updated.pdf) at the National Speech and Debate Association National Tournament. It was a great privilege to work with students who placed 3rd in Nationals, 2nd in State, 1st MDTA Cup, 6 regional champions, and 2 MN Debate Student of the Year.
 
 During graduate school, I taught 2 summers at [Minnesota Minghua Chinese School](https://www.minghuaedu.org/) and the Stanford [STHEM](https://compression.stanford.edu/outreach/shtem-summer-internships-high-schoolers-and-community-college-students) where my mentees published their own independent research paper on [child's emotional literacy](https://theinformaticists.com/2022/10/03/improving-childrens-social-and-emotional-literacy-using-nlp-based-emotional-detection/).
 
