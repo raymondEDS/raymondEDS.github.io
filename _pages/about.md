@@ -12,7 +12,7 @@ Welcome to my website! My name is Raymond and I am an engineer, machine learning
 
 Work Experience
 ======
-Professionally, I have worked as an engineer in the supply chain/logistics/manufacturing domain for 5+ years! I started my full-time career on the front lines of manufacturing lines at [3M](https://www.3m.com/) as an operations engineer, then worked my way to corporate where I became the manufacturing lead for a global supply chain. In 2020, I made a career change to software engineering working on warehouse management systems (WMS) for [Chewy.com](https://www.chewy.com/). Currently, I work as the lead developer for [Resmed](https://www.resmed.com/en-us/)'s WMS.
+Professionally, I have worked as an engineer in the supply chain/logistics/manufacturing domain for 5+ years! I started my full-time career on the front lines of manufacturing lines at [3M](https://www.3m.com/) as an operations engineer, then worked my way to corporate where I became the manufacturing lead for a global supply chain. In 2020, I made a career change to software engineering working on warehouse management systems (WMS) for [Chewy.com](https://www.chewy.com/). Currently, I work as the developer for [Resmed](https://www.resmed.com/en-us/)'s WMS.
 
 Research Experience
 ======
@@ -23,11 +23,12 @@ Prior to graduate school, I worked with Professor [BoDong Chen](https://www.gse.
 
 Teaching Experience
 ------
-Most importantly, I have worked directly with students ranging from 6th grade to high school seniors as a coach/mentor since 2013. I was the Speech and Debate program advisor for Minnetonka High School where my team won the [2019 Schools of Excellence in Debate](https://www.speechanddebate.org/wp-content/uploads/2019-School-Awards-Updated.pdf) at the National Speech and Debate Association National Tournament. It was a great privilege to work with students who placed 3rd in Nationals, 2nd in State, 1st MDTA Cup, 6 regional champions, and 2 MN Debate Student of the Year.
+Most importantly, I have worked directly with students ranging from 5th grade to graduate students as a coach/mentor since 2013. I was the Speech and Debate program advisor for Minnetonka High School where my team won the [2019 Schools of Excellence in Debate](https://www.speechanddebate.org/wp-content/uploads/2019-School-Awards-Updated.pdf) at the National Speech and Debate Association National Tournament. It was a great privilege to work with students who placed 3rd in Nationals, 2nd in State, 1st MDTA Cup, 6+ regional champions, and 2 MN Debate Student of the Year.
 
 During graduate school, I taught 2 summers at [Minnesota Minghua Chinese School](https://www.minghuaedu.org/) and the Stanford [STHEM](https://compression.stanford.edu/outreach/shtem-summer-internships-high-schoolers-and-community-college-students) where my mentees published their own independent research paper on [child's emotional literacy](https://theinformaticists.com/2022/10/03/improving-childrens-social-and-emotional-literacy-using-nlp-based-emotional-detection/).
 
-I am excited to announce a new collaboration with [SR20](https://www.sr20academy.com/public-speaking-and-debating-program) to promote English public speaking and professional development in a foreign language learning context!
+
+I am excited to announce a new collaboration with [SR20](https://www.sr20academy.com/public-speaking-and-debating-program) to promote English public speaking and professional development in a foreign language learning context! Additionally, my team has developed a custom curriculum in STEM entrepreneurship and machine learning research to service both domestic and international students alike! We are really excited to work with you all!
 
 I have been blessed by working with so many brilliant students who moved on to become great scientists, business leaders, doctors, and many yet to find their calling! 
 
