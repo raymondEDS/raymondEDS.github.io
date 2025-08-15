@@ -12,13 +12,15 @@ Welcome to my website! My name is Raymond and I am an engineer, machine learning
 
 Work Experience
 ======
-Professionally, I have worked as an engineer in the supply chain/logistics/manufacturing domain for 5+ years! I started my full-time career on the front lines of manufacturing lines at [3M](https://www.3m.com/) as an operations engineer, then worked my way to corporate where I became the manufacturing lead for a global supply chain. In 2020, I made a career change to software engineering working on warehouse management systems (WMS) for [Chewy.com](https://www.chewy.com/). Currently, I work as the developer for [Resmed](https://www.resmed.com/en-us/)'s WMS.
+Professionally, I have worked as an engineer in the supply chain/logistics/manufacturing domain for 7+ years! I started my full-time career on the front lines of manufacturing lines at [3M](https://www.3m.com/) as an operations engineer, then worked my way to corporate where I became the manufacturing lead for a global supply chain. In 2020, I made a career change to software engineering working on warehouse management systems (WMS) for [Chewy.com](https://www.chewy.com/). Currently, I work as the developer for [Resmed](https://www.resmed.com/en-us/)'s WMS.
 
 Research Experience
 ======
 While completing my master's studies at the Stanford Graduate School of Education, I was fortunate enough to have worked on the following projects. With Professor [Daniel McFarland](https://profiles.stanford.edu/daniel-mcfarland) at the [Mimir Knowledge Creation Lab](https://mimir.stanford.edu/research), we were able to publish a paper on how peer-review policies caused review scores to change to *Findings of the Association for Computational Linguistics*. Additionally, I worked on a computer vision project between Professor [Nick Haber](https://ed.stanford.edu/faculty/nhaber) of the [Stanford Autonomous Agents Lab](https://www.autonomousagents.stanford.edu/people) and Professor [Phil Fisher](https://ed.stanford.edu/faculty/philf) of the [Stanford Center on Early Childhood](https://earlychildhood.stanford.edu/), where our preliminary findings was presented at *University of California, Berkeley's Institute of Human Development Flash Talks*.
 
 Prior to graduate school, I worked with Professor [BoDong Chen](https://www.gse.upenn.edu/academics/faculty-directory/bchen) of the [University of Pennsylvania Graduate School of Education Wonder Lab](https://penn-wonderlab.github.io/) on publishing literature review on social annotation.
+
+Currently I work with as an independent researcher working on learning science methods applied to competitive debate and AI agents for education. My collaborators include [Jiayi (Joyce) Zhang](https://scholar.google.com/citations?user=wsmdU28AAAAJ&hl=en) and others from McGill University, University of Pennsylvania, and Stanford University.
 
 
 Teaching Experience
@@ -27,8 +29,7 @@ Most importantly, I have worked directly with students ranging from 5th grade to
 
 During graduate school, I taught 2 summers at [Minnesota Minghua Chinese School](https://www.minghuaedu.org/) and the Stanford [STHEM](https://compression.stanford.edu/outreach/shtem-summer-internships-high-schoolers-and-community-college-students) where my mentees published their own independent research paper on [child's emotional literacy](https://theinformaticists.com/2022/10/03/improving-childrens-social-and-emotional-literacy-using-nlp-based-emotional-detection/).
 
-
-I am excited to announce a new collaboration with [SR20](https://www.sr20academy.com/public-speaking-and-debating-program) to promote English public speaking and professional development in a foreign language learning context! Additionally, my team has developed a custom curriculum in STEM entrepreneurship and machine learning research to service both domestic and international students alike! We are really excited to work with you all!
+My mission is to provide an excellent afterschool extracurricular experiences through personalized curriculum development. Thus I founded [Cura Learning](https://curalearning.org/) an edTech company that focuses on taking a scentific approach to developing personalized curriculum so students can speak confidently and think critically.
 
 I have been blessed by working with so many brilliant students who moved on to become great scientists, business leaders, doctors, and many yet to find their calling! 
 
