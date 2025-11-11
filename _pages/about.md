@@ -7,18 +7,141 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<div class="notice" markdown="1" style="
+  border-left: 5px solid #8fce00;
+  background: linear-gradient(135deg, #f9fbff 0%, #ffffff 100%);
+  padding: 1.5rem 1.75rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  line-height: 1.65;
+  font-size: 1.05rem;
+  color: #1a1a1a;
+  max-width: 860px;
+  margin: 2rem auto;
+">
 
-## About Me
+<style>
+/* Reusable styles */
+.about-title {
+  font-size: 2rem;
+  margin: 0 0 0.75rem 0;
+  color: #0f2167;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+.about-subtle {
+  color: #394150;
+}
+.chip {
+  display: inline-block;
+  margin: 0.25rem 0.4rem 0.25rem 0;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  background: #eef4ff;
+  color: #0b3d91;
+  border: 1px solid #dbe6ff;
+}
+.cta-row a {
+  display: inline-block;
+  margin-right: 0.6rem;
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.cta-primary {
+  background: #0b3d91;
+  color: #fff !important;
+}
+.cta-primary:hover { filter: brightness(1.05); }
+.cta-ghost {
+  background: #f1f5ff;
+  color: #0b3d91 !important;
+  border: 1px solid #dbe6ff;
+}
+.cta-ghost:hover { background: #e8f0ff; }
+.disclaimer {
+  margin-top: 0.75rem;
+  padding: 0.6rem 0.8rem;
+  border-left: 3px solid #cbd5e1;
+  background: #f7fafc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #374151;
+}
 
-My name is **Raymond** and I am an indepdendent education researcher and eductator. I work at the intersection of AI, learning sciences, and practical education implementation. My research focuses on using AI methdologies in education  (LLM, computer vision, expiremental design, natural language processing).
+/* Optional dark-mode polish */
+@media (prefers-color-scheme: dark) {
+  .notice[markdown] {
+    background: linear-gradient(135deg, #0f172a 0%, #0b1021 100%) !important;
+    color: #e5e7eb !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.35) !important;
+  }
+  .about-title { color: #eef2ff; }
+  .about-subtle { color: #cbd5e1; }
+  .chip {
+    background: rgba(59,130,246,0.12);
+    color: #cfe0ff;
+    border-color: rgba(59,130,246,0.25);
+  }
+  .cta-ghost {
+    background: rgba(59,130,246,0.12);
+    color: #dbeafe !important;
+    border-color: rgba(59, 246, 84, 0.25);
+  }
+  .disclaimer {
+    background: rgba(148,163,184,0.12);
+    color: #e5e7eb;
+    border-left-color: #64748b;
+  }
+}
+</style>
 
-*All opinions expressed here are my own and do not represent the various institutions I have worked with.*
+<h2 class="about-title">👋 About Me</h2>
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/raymondzeds/) or [GitHub](https://github.com/raymondEDS).
+<div style="text-align: center; margin: 1rem 0 1.5rem 0;">
+  <img src="/images/researcher.png" alt="Researcher with VR headset and magnifying glass" style="max-width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</div>
 
-I'm open to collaborating on machine learning work in my domain of expertise, teaching public speaking, or supply chain technologies work. Feel free to reach out!
+<p class="about-subtle" style="margin: 0 0 0.75rem 0;">
+  My name is <b>Raymond</b>. I’m an independent education researcher and educator working at the intersection of
+  <b>AI</b>, <b>learning sciences</b>, and <b>practical education implementation</b>.
+  My research focuses on applying AI methodologies to education—LLMs, computer vision, experimental design, and NLP—to help students learn to think clearly and advocate with evidence.
+</p>
 
----
+<!-- Focus chips -->
+<div style="margin: 0.5rem 0 0.75rem 0;">
+  <span class="chip">Learning Sciences</span>
+  <span class="chip">LLMs & NLP</span>
+  <span class="chip">Computer Vision</span>
+  <span class="chip">Experimental Design</span>
+  <span class="chip">Debate & Rhetoric</span>
+  <span class="chip">AI-In-Education</span>
+</div>
+
+<!-- Collaboration paragraph -->
+<p style="margin: 0.75rem 0 0 0;">
+  I’m open to collaborating on <b>machine learning for education</b>, <b>public speaking/debate coaching</b>, and
+  <b>supply-chain technologies</b>. If our interests align, let’s talk.
+</p>
+
+<!-- Calls to action -->
+<div class="cta-row">
+  <!-- <a class="cta-primary" href="mailto:your@email">✉️ Email</a> -->
+  <a class="cta-ghost" href="https://www.linkedin.com/in/raymondzeds/" target="_blank">🔗 LinkedIn</a>
+  <a class="cta-ghost" href="https://curalearning.org/"> 📊 Cura Learning</a>
+</div>
+
+<!-- Disclaimer -->
+<div class="disclaimer">
+  <em>All opinions expressed here are my own and do not represent any institutions I have worked with.</em>
+</div>
+
+</div>
+
 <div class="notice" markdown="1" style="
   border-left: 5px solid #4C8BF5;
   background: linear-gradient(135deg, #f9fbff 0%, #ffffff 100%);
@@ -159,4 +282,4 @@ I have been blessed to work with many brilliant students who have moved on to be
 
 ---
 
-*Interested in collaboration? Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/raymondzeds/) or [GitHub](https://github.com/raymondEDS).*
+*Interested in collaboration? Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/raymondzeds/)*
