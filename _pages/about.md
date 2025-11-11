@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to My Site!"
+title: 
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <div class="notice" markdown="1" style="
-  border-left: 5px solid #8fce00;
+  border-left: 5px solid #6a329f;
   background: linear-gradient(135deg, #f9fbff 0%, #ffffff 100%);
   padding: 1.5rem 1.75rem;
   border-radius: 10px;
@@ -100,11 +100,12 @@ redirect_from:
 }
 </style>
 
-<h2 class="about-title">👋 About Me</h2>
-
+<h2 class="about-title">What do I do?</h2>
+<!--
 <div style="text-align: center; margin: 1rem 0 1.5rem 0;">
   <img src="/images/researcher.png" alt="Researcher with VR headset and magnifying glass" style="max-width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 </div>
+-->
 
 <p class="about-subtle" style="margin: 0 0 0.75rem 0;">
   My name is <b>Raymond</b>. I’m an independent education researcher and educator working at the intersection of
@@ -236,50 +237,241 @@ redirect_from:
 </div>
 
 </div>
+<!-- ======= Cura Learning Section ======= -->
+<div class="card" markdown="1" style="
+  border-left: 6px solid #8fce00;
+  background: linear-gradient(135deg, #f9fbff 0%, #ffffff 100%);
+  padding: 1.5rem 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  line-height: 1.65;
+  font-size: 1.05rem;
+  color: #394150;
+  max-width: 980px;
+  margin: 1.75rem auto;
+">
+
+<style>
+.cura-title {
+  font-size: 1.8rem;
+  margin: 0 0 1rem 0;
+  color: #0f2167;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+.cura-subhead {
+  font-weight: 600;
+  color: #0b3d91;
+  margin-bottom: 0.4rem;
+}
+/* (Unused in this block, kept in case you reintroduce it)
+.cura-highlight { ... }
+*/
+
+.cura-impact {
+  background: linear-gradient(90deg, #e8f6d3 0%, #ffffff 90%);
+  border: 1px solid #dbe6ff;
+  border-left: 5px solid #8fce00;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  font-size: 1.02rem;
+  color: #1f2937;
+  margin: 1.2rem 0;
+  line-height: 1.6;
+}
+
+.teach-minor {
+  font-size: 0.93rem;
+  line-height: 1.55;
+  color: #4b5563;
+  margin-top: 1.25rem;
+}
+.teach-minor h4 {
+  font-size: 1rem;
+  color: #0f2167;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.teach-minor ul {
+  margin: 0.3rem 0 0 1.25rem;
+}
+.teach-minor li {
+  margin: 0.25rem 0;
+}
+.teach-minor a {
+  color: #0b3d91;
+  text-decoration: none;
+}
+.teach-minor a:hover {
+  text-decoration: underline;
+}
+
+/* Optional dark mode styling */
+@media (prefers-color-scheme: dark) {
+  .card {
+    background: linear-gradient(135deg, #0f172a 0%, #0b1021 100%) !important;
+    color: #e5e7eb;
+  }
+  .cura-title { color: #eef2ff; }
+  .cura-subhead { color: #9ec1ff; }
+  .cura-impact {
+    background: linear-gradient(90deg, rgba(143,206,0,0.18) 0%, rgba(15,33,103,0.06) 90%);
+    border-color: rgba(219,230,255,0.35);
+    border-left-color: #8fce00;
+    color: #e2e8f0;
+  }
+  .teach-minor { color: #cbd5e1; }
+  .teach-minor h4 { color: #e2e8f0; }
+  .teach-minor a { color: #9ec1ff; }
+}
+</style>
+
+<h2 class="cura-title">🧪 Cura Learning: Research, Data, and Advocacy Lab for Students</h2>
+
+<p>
+  I founded <a href="https://curalearning.org/" target="_blank"><b>Cura Learning</b></a>, an EdTech company focused on developing <b>evidence-based curriculum design</b> that helps students speak confidently and think critically.
+  Cura Learning represents the practical implementation of my research in <b>AI-informed education design</b> and <b>learning science</b>.
+  Programs at Cura Learning integrate <b>research methodology</b>, <b>critical thinking</b>, and <b>AI literacy</b> to train students as <em>researchers, debaters, and advocates</em>.
+</p>
+
+<div class="cura-impact" role="note" aria-label="Student Results">
+  <div style="font-weight:700; color:#0f2167; margin-bottom:.25rem;">🌿 Student Results</div>
+  Cura Learning students have won <b>state and national debate championships</b>,
+  published <b>independent research</b>,
+  and earned admission into <b>Ivy+ universities</b>.
+</div>
+
+<!-- Minor Teaching Section -->
+<div class="teach-minor">
+  <h4>Other Teaching Highlights</h4>
+  <ul>
+    <li><b>Minnetonka High School – Speech & Debate Advisor</b>: Led team to <a href="https://www.speechanddebate.org/wp-content/uploads/2019-School-Awards-Updated.pdf" target="_blank" rel="noopener">2019 Schools of Excellence in Debate</a>; multiple national and state finalists.</li>
+    <li><b>Minnesota Minghua Chinese School</b> — Summer public speaking & debate programs.</li>
+    <li><b>Stanford STHEM</b> — Mentored students who published research on <a href="https://theinformaticists.com/2022/10/03/improving-childrens-social-and-emotional-literacy-using-nlp-based-emotional-detection/" target="_blank" rel="noopener">children’s emotional literacy using NLP</a>.</li>
+  </ul>
+</div>
+
+</div>
 
 
-**Research contributions to the following institutions:**
-- [Mimir Knowledge Creation Lab at Stanford University](https://mimir.stanford.edu/research) - (with Professor [Daniel McFarland](https://profiles.stanford.edu/daniel-mcfarland))
-- [Stanford Autonomous Agents Lab](https://www.autonomousagents.stanford.edu/people) (with Professor [Nick Haber](https://ed.stanford.edu/faculty/nhaber))
-- [Stanford Center on Early Childhood](https://earlychildhood.stanford.edu/) (with Professor [Phil Fisher](https://ed.stanford.edu/faculty/philf))
-- [University of Pennsylvania Graduate School of Education Wonder Lab](https://penn-wonderlab.github.io/) (with Professor [BoDong Chen](https://www.gse.upenn.edu/academics/faculty-directory/bchen))
+<!-- ======= Professional Experience Section ======= -->
+<div class="card" markdown="1" style="
+  border-left: 6px solid #4C8BF5;
+  background: linear-gradient(135deg, #f9fbff 0%, #ffffff 100%);
+  padding: 1.5rem 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  line-height: 1.65;
+  font-size: 1.05rem;
+  color: #394150;
+  max-width: 980px;
+  margin: 1.75rem auto;
+">
 
+<style>
+.exp-title {
+  font-size: 1.8rem;
+  margin: 0 0 1rem 0;
+  color: #0f2167;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+.exp-role {
+  font-weight: 700;
+  color: #0b3d91;
+}
+.exp-company {
+  font-weight: 700;
+  color: #111827;
+}
+.exp-block {
+  margin-bottom: 1.25rem;
+  border-left: 3px solid #dbe6ff;
+  padding-left: 1rem;
+}
+.exp-block:last-child { margin-bottom: 0; }
+.exp-block:hover {
+  background: #f7faff;
+  border-left-color: #4C8BF5;
+  transition: all 0.25s ease;
+  border-radius: 6px;
+}
 
+.impact-card {
+  background: linear-gradient(90deg, #eef4ff 0%, #ffffff 90%);
+  border: 1px solid #e5e7eb;
+  padding: 1.25rem 1.4rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  color: #1f2937;
+  font-size: 1.03rem;
+  margin-top: 1.5rem;
+  line-height: 1.6;
+}
 
-**Current Research Focus:**
-- AI in education
-- Debate centric curriculum
-- Learning science of intellectual development
-- Causal inference with text
+.impact-header {
+  font-weight: 700;
+  color: #0b3d91;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
 
----
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .card {
+    background: linear-gradient(135deg, #0f172a 0%, #0b1021 100%) !important;
+    color: #e5e7eb;
+  }
+  .exp-title { color: #eef2ff; }
+  .exp-role { color: #9ec1ff; }
+  .exp-block { border-left-color: #2d3748; }
+  .exp-block:hover { background: rgba(59,130,246,0.12); border-left-color: #8fce00; }
+  .impact-card {
+    background: linear-gradient(90deg, rgba(59,130,246,0.12) 0%, rgba(15,33,103,0.08) 90%);
+    border-color: rgba(59,130,246,0.25);
+    color: #e2e8f0;
+  }
+  .impact-header { color: #9ec1ff; }
+}
+</style>
 
-## Cura Learning: Experimental Education Programs
+<h2 class="exp-title">💼 Professional Work Experience</h2>
 
-I founded [**Cura Learning**](https://curalearning.org/), an edTech company that focuses on taking a scientific approach curriculum development so students can speak confidently and think critically. Cura Learning represents the practical implementation of my research in experimental education design.
+<p>
+  With over <b>7 years of professional experience</b>, I’ve built a career that bridges <b>operations, manufacturing, and software engineering</b>.
+  My work focuses on optimizing complex systems—whether in supply chain networks or educational design.
+</p>
 
-**Student Results:** Cura learning students have won several state and national level debate tournaments and championships, as well as admissions into several Ivy+ universities.
+<div class="exp-block">
+  <span class="exp-role">WMS Developer</span> @ <span class="exp-company">ResMed</span> — Present  
+  <br>Developing and maintaining <b>warehouse management systems</b> for healthcare supply chain operations. Focused on data-driven performance optimization, reliability, and scalability.
+</div>
 
-## Other Teaching Highlights
-**Minnetonka High School - Speech and Debate Program Advisor**
-- Led team to win [2019 Schools of Excellence in Debate](https://www.speechanddebate.org/wp-content/uploads/2019-School-Awards-Updated.pdf) at the National Speech and Debate Association National Tournament
-- Students achieved: 3rd in Nationals, 2nd in State, 1st MDTA Cup, 6+ regional champions, 2 MN Debate Student of the Year awards
+<div class="exp-block">
+  <span class="exp-role">Software Engineer</span> @ <span class="exp-company">Chewy.com</span>  
+  <br>Built and deployed <b>WMS solutions</b> for e-commerce logistics. Improved operational throughput through intelligent picking algorithms and real-time data visibility.
+</div>
 
-- **Minnesota Minghua Chinese School** - Summer programs
-- **Stanford STHEM** (Summer Internships for High Schoolers and Community College Students) - Mentored students who published independent research on [child's emotional literacy](https://theinformaticists.com/2022/10/03/improving-childrens-social-and-emotional-literacy-using-nlp-based-emotional-detection/)
+<div class="exp-block">
+  <span class="exp-role">Operations Engineer → Manufacturing Lead</span> @ <span class="exp-company">3M</span>  
+  <br>Led production optimization projects across <b>manufacturing lines</b> and <b>global supply chains</b>. Delivered measurable gains in throughput and cost efficiency.
+</div>
 
+<p>
+  My technical expertise spans <b>supply chain systems</b>, <b>logistics automation</b>, <b>manufacturing optimization</b>, and <b>software design</b>, with research applications in <b>NLP</b>, <b>computer vision</b>, and <b>causal inference</b>.
+</p>
 
----
+<!-- ======= Impact Section ======= -->
+<div class="impact-card" role="note" aria-label="Impact and Recognition">
+  <div class="impact-header">🌟 Impact & Recognition</div>
+  I’ve been privileged to mentor and collaborate with brilliant students who have gone on to become
+  <b>scientists, business leaders, physicians, and innovators</b>.
+  The ongoing success of my students—and the measurable outcomes of evidence-based education—continues to
+  <b>drive my research and practice</b> every day.
+</div>
 
-## Professional Work Experience
+</div>
 
-With over 7 years of professional experience, I've built a career spanning operations, manufacturing, and software engineering. I started at **3M** as an Operations Engineer on manufacturing lines and advanced to Manufacturing Lead for a global supply chain. In 2020, I transitioned to software engineering at **Chewy.com**, where I worked on warehouse management systems (WMS) for e-commerce logistics. Currently, I'm a WMS Developer at **Resmed**, developing and maintaining WMS solutions for healthcare supply chain operations. My technical expertise spans supply chain, logistics, manufacturing, software engineering, and system design, with research applications in NLP, computer vision, causal inference, and experimental design.
-
----
-
-### Impact & Recognition
-I have been blessed to work with many brilliant students who have moved on to become great scientists, business leaders, doctors, and many others who are still finding their calling. The success of my students and the impact of evidence-based educational approaches continue to drive my work in both research and practice.
-
----
 
 *Interested in collaboration? Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/raymondzeds/)*
