@@ -17,5 +17,8 @@ main:
   - title: "Cura Learning"
     url: https://www.curalearning.org/
 
+  - title: "Engineering Work"
+    url: /engineering-work/
+
   #- title: "Guide"
   #  url: /markdown/

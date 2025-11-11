@@ -29,9 +29,7 @@ redirect_from:
   font-weight: 800;
   letter-spacing: -0.3px;
 }
-.about-subtle {
-  color: #394150;
-}
+.about-subtle { color: #394150; }
 .chip {
   display: inline-block;
   margin: 0.25rem 0.4rem 0.25rem 0;
@@ -42,6 +40,27 @@ redirect_from:
   color: #0b3d91;
   border: 1px solid #dbe6ff;
 }
+
+/* Compact education list */
+.edu {
+  margin-top: 0.85rem;
+  background: #f7f9ff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #6a329f;
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+}
+.edu h3 {
+  margin: 0 0 .4rem 0;
+  font-size: 1.05rem;
+  color: #0f2167;
+  font-weight: 800;
+}
+.edu .row { margin: .25rem 0; }
+.edu .label { color:#6b7280; font-weight:600; margin-right:.35rem; }
+.edu .degree { font-weight:600; color:#0b3d91; }
+
+/* CTAs & disclaimer */
 .cta-row a {
   display: inline-block;
   margin-right: 0.6rem;
@@ -51,18 +70,11 @@ redirect_from:
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
-}
-.cta-primary {
-  background: #0b3d91;
-  color: #fff !important;
-}
-.cta-primary:hover { filter: brightness(1.05); }
-.cta-ghost {
   background: #f1f5ff;
   color: #0b3d91 !important;
   border: 1px solid #dbe6ff;
 }
-.cta-ghost:hover { background: #e8f0ff; }
+.cta-row a:hover { background: #e8f0ff; }
 .disclaimer {
   margin-top: 0.75rem;
   padding: 0.6rem 0.8rem;
@@ -87,10 +99,13 @@ redirect_from:
     color: #cfe0ff;
     border-color: rgba(59,130,246,0.25);
   }
-  .cta-ghost {
+  .edu { background: rgba(59,130,246,0.10); border-color: #334155; }
+  .edu h3 { color: #e5e7eb; }
+  .edu .label { color: #cbd5e1; }
+  .cta-row a {
     background: rgba(59,130,246,0.12);
     color: #dbeafe !important;
-    border-color: rgba(59, 246, 84, 0.25);
+    border-color: rgba(59,130,246,0.25);
   }
   .disclaimer {
     background: rgba(148,163,184,0.12);
@@ -101,11 +116,6 @@ redirect_from:
 </style>
 
 <h2 class="about-title">What do I do?</h2>
-<!--
-<div style="text-align: center; margin: 1rem 0 1.5rem 0;">
-  <img src="/images/researcher.png" alt="Researcher with VR headset and magnifying glass" style="max-width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-</div>
--->
 
 <p class="about-subtle" style="margin: 0 0 0.75rem 0;">
   My name is <b>Raymond</b>. I’m an independent education researcher and educator working at the intersection of
@@ -120,7 +130,21 @@ redirect_from:
   <span class="chip">Computer Vision</span>
   <span class="chip">Experimental Design</span>
   <span class="chip">Debate & Rhetoric</span>
-  <span class="chip">AI-In-Education</span>
+  <span class="chip">AI in Education</span>
+</div>
+
+<!-- Education (concise) -->
+<div class="edu">
+  <h3>🎓 Education</h3>
+  <div class="row">
+    <span class="label">Degrees:</span>
+    <span class="degree">M.S., Education Data Science — Stanford Graduate School of Education</span> ·
+    <span class="degree">B.S., College of Science & Engineering — University of Minnesota, Twin Cities</span>
+  </div>
+  <div class="row">
+    <span class="label">Also attended:</span>
+    National University of Singapore · University of Chicago · Stanford Graduate School of Business (Ignite)
+  </div>
 </div>
 
 <!-- Collaboration paragraph -->
@@ -131,9 +155,8 @@ redirect_from:
 
 <!-- Calls to action -->
 <div class="cta-row">
-  <!-- <a class="cta-primary" href="mailto:your@email">✉️ Email</a> -->
-  <a class="cta-ghost" href="https://www.linkedin.com/in/raymondzeds/" target="_blank">🔗 LinkedIn</a>
-  <a class="cta-ghost" href="https://curalearning.org/"> 📊 Cura Learning</a>
+  <a href="https://www.linkedin.com/in/raymondzeds/" target="_blank">🔗 LinkedIn</a>
+  <a href="https://curalearning.org/" target="_blank">📊 Cura Learning</a>
 </div>
 
 <!-- Disclaimer -->
@@ -142,6 +165,7 @@ redirect_from:
 </div>
 
 </div>
+
 
 <div class="notice" markdown="1" style="
   border-left: 5px solid #4C8BF5;
@@ -280,7 +304,18 @@ redirect_from:
   margin: 1.2rem 0;
   line-height: 1.6;
 }
-
+.thanks {
+  background: linear-gradient(90deg, #cfe2f3 0%, #ffffff 90%);
+  border: 1px solid #dbe6ff;
+  border-left: 5px solid #f44336;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  font-size: 1.02rem;
+  color: #1f2937;
+  margin: 1.2rem 0;
+  line-height: 1.6;
+}
 .teach-minor {
   font-size: 0.93rem;
   line-height: 1.55;
@@ -321,6 +356,12 @@ redirect_from:
     border-left-color: #8fce00;
     color: #e2e8f0;
   }
+  .thanks {
+    background: linear-gradient(90deg, rgba(143,206,0,0.18) 0%, rgba(15,33,103,0.06) 90%);
+    border-color: rgba(219,230,255,0.35);
+    border-left-color: #f44336;
+    color: #e2e8f0;
+  }
   .teach-minor { color: #cbd5e1; }
   .teach-minor h4 { color: #e2e8f0; }
   .teach-minor a { color: #9ec1ff; }
@@ -351,127 +392,13 @@ redirect_from:
     <li><b>Stanford STHEM</b> — Mentored students who published research on <a href="https://theinformaticists.com/2022/10/03/improving-childrens-social-and-emotional-literacy-using-nlp-based-emotional-detection/" target="_blank" rel="noopener">children’s emotional literacy using NLP</a>.</li>
   </ul>
 </div>
-
-</div>
-
-
-<!-- ======= Professional Experience Section ======= -->
-<div class="card" markdown="1" style="
-  border-left: 6px solid #4C8BF5;
-  background: linear-gradient(135deg, #f9fbff 0%, #ffffff 100%);
-  padding: 1.5rem 1.75rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  line-height: 1.65;
-  font-size: 1.05rem;
-  color: #394150;
-  max-width: 980px;
-  margin: 1.75rem auto;
-">
-
-<style>
-.exp-title {
-  font-size: 1.8rem;
-  margin: 0 0 1rem 0;
-  color: #0f2167;
-  font-weight: 800;
-  letter-spacing: -0.3px;
-}
-.exp-role {
-  font-weight: 700;
-  color: #0b3d91;
-}
-.exp-company {
-  font-weight: 700;
-  color: #111827;
-}
-.exp-block {
-  margin-bottom: 1.25rem;
-  border-left: 3px solid #dbe6ff;
-  padding-left: 1rem;
-}
-.exp-block:last-child { margin-bottom: 0; }
-.exp-block:hover {
-  background: #f7faff;
-  border-left-color: #4C8BF5;
-  transition: all 0.25s ease;
-  border-radius: 6px;
-}
-
-.impact-card {
-  background: linear-gradient(90deg, #eef4ff 0%, #ffffff 90%);
-  border: 1px solid #e5e7eb;
-  padding: 1.25rem 1.4rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-  color: #1f2937;
-  font-size: 1.03rem;
-  margin-top: 1.5rem;
-  line-height: 1.6;
-}
-
-.impact-header {
-  font-weight: 700;
-  color: #0b3d91;
-  font-size: 1.15rem;
-  margin-bottom: 0.4rem;
-}
-
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  .card {
-    background: linear-gradient(135deg, #0f172a 0%, #0b1021 100%) !important;
-    color: #e5e7eb;
-  }
-  .exp-title { color: #eef2ff; }
-  .exp-role { color: #9ec1ff; }
-  .exp-block { border-left-color: #2d3748; }
-  .exp-block:hover { background: rgba(59,130,246,0.12); border-left-color: #8fce00; }
-  .impact-card {
-    background: linear-gradient(90deg, rgba(59,130,246,0.12) 0%, rgba(15,33,103,0.08) 90%);
-    border-color: rgba(59,130,246,0.25);
-    color: #e2e8f0;
-  }
-  .impact-header { color: #9ec1ff; }
-}
-</style>
-
-<h2 class="exp-title">💼 Professional Work Experience</h2>
-
-<p>
-  With over <b>7 years of professional experience</b>, I’ve built a career that bridges <b>operations, manufacturing, and software engineering</b>.
-  My work focuses on optimizing complex systems—whether in supply chain networks or educational design.
-</p>
-
-<div class="exp-block">
-  <span class="exp-role">WMS Developer</span> @ <span class="exp-company">ResMed</span> — Present  
-  <br>Developing and maintaining <b>warehouse management systems</b> for healthcare supply chain operations. Focused on data-driven performance optimization, reliability, and scalability.
-</div>
-
-<div class="exp-block">
-  <span class="exp-role">Software Engineer</span> @ <span class="exp-company">Chewy.com</span>  
-  <br>Built and deployed <b>WMS solutions</b> for e-commerce logistics. Improved operational throughput through intelligent picking algorithms and real-time data visibility.
-</div>
-
-<div class="exp-block">
-  <span class="exp-role">Operations Engineer → Manufacturing Lead</span> @ <span class="exp-company">3M</span>  
-  <br>Led production optimization projects across <b>manufacturing lines</b> and <b>global supply chains</b>. Delivered measurable gains in throughput and cost efficiency.
-</div>
-
-<p>
-  My technical expertise spans <b>supply chain systems</b>, <b>logistics automation</b>, <b>manufacturing optimization</b>, and <b>software design</b>, with research applications in <b>NLP</b>, <b>computer vision</b>, and <b>causal inference</b>.
-</p>
-
 <!-- ======= Impact Section ======= -->
-<div class="impact-card" role="note" aria-label="Impact and Recognition">
-  <div class="impact-header">🌟 Impact & Recognition</div>
-  I’ve been privileged to mentor and collaborate with brilliant students who have gone on to become
+<div class="thanks" role="note" aria-label="Impact and Recognition">
+  <div style="font-weight:700; color:#16537e; margin-bottom:.25rem;">🌟 Thank yous!</div>
+  I've been privileged to mentor and collaborate with brilliant students who have gone on to become
   <b>scientists, business leaders, physicians, and innovators</b>.
   The ongoing success of my students—and the measurable outcomes of evidence-based education—continues to
   <b>drive my research and practice</b> every day.
 </div>
-
-</div>
-
 
 *Interested in collaboration? Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/raymondzeds/)*
