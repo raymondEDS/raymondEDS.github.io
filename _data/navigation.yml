@@ -5,20 +5,19 @@ main:
  # - title: "SR20 Academy"
  #   url: https://www.sr20academy.com/public-speaking-and-debating-program   
     
-  #- title: "Research"
-  #  url: /publications/
+  - title: "Research"
+    url: /
     
   #- title: "Portfolio"
   #  url: /portfolio/
         
  # - title: "Blog Posts"
   #  url: /year-archive/
-    
-  - title: "Cura Learning"
-    url: https://www.curalearning.org/
 
-  - title: "Engineering Work"
+  - title: "Professional Work"
     url: /engineering-work/
 
+  - title: "Cura Learning"
+    url: https://www.curalearning.org/
   #- title: "Guide"
   #  url: /markdown/

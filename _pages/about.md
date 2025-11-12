@@ -118,7 +118,7 @@ redirect_from:
 <h2 class="about-title">What do I do?</h2>
 
 <p class="about-subtle" style="margin: 0 0 0.75rem 0;">
-  My name is <b>Raymond</b>. I’m an independent education researcher and educator working at the intersection of
+  My name is <b>Raymond</b>. I am an independent education researcher and educator working at the intersection of
   <b>AI</b>, <b>learning sciences</b>, and <b>practical education implementation</b>.
   My research focuses on applying AI methodologies to education—LLMs, computer vision, experimental design, and NLP—to help students learn to think clearly and advocate with evidence.
 </p>
@@ -129,8 +129,9 @@ redirect_from:
   <span class="chip">LLMs & NLP</span>
   <span class="chip">Computer Vision</span>
   <span class="chip">Experimental Design</span>
-  <span class="chip">Debate & Rhetoric</span>
+  <span class="chip">Debate Centric Curriculum</span>
   <span class="chip">AI in Education</span>
+  <span class="chip">Future of Work</span>
 </div>
 
 <!-- Education (concise) -->
@@ -138,7 +139,11 @@ redirect_from:
   <h3>🎓 Education</h3>
   <div class="row">
     <span class="label">Degrees:</span>
-    <span class="degree">M.S., Education Data Science — Stanford Graduate School of Education</span> ·
+  </div>
+  <div class="row">
+    <span class="degree">M.S., Education Data Science — Stanford Graduate School of Education</span>
+  </div>
+  <div class="row">
     <span class="degree">B.S., College of Science & Engineering — University of Minnesota, Twin Cities</span>
   </div>
   <div class="row">
