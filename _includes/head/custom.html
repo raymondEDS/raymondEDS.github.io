@@ -208,51 +208,121 @@
 
 
 
-      // Load particles.js from CDN (defer + onload init)
+      // Load particles.js from CDN (with fallback and error handling)
 
       const s = document.createElement('script');
 
-      s.src = 'https://cdn.jsdelivr.net/npm/particles.js';
+      s.src = 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js';
 
-      s.defer = true;
+      s.async = true;
 
       s.onload = () => {
 
-        if (typeof particlesJS === 'function') {
+        // Wait a bit for particlesJS to be available
 
-          particlesJS('particles-bg', {
+        setTimeout(() => {
 
-            particles: {
+          if (typeof particlesJS === 'function') {
 
-              number: { value: 55, density: { enable: true, value_area: 1200 } },
+            particlesJS('particles-bg', {
 
-              color: { value: ['#0b3d91', '#8fce00'] },
+              particles: {
 
-              shape: { type: 'circle' },
+                number: { value: 55, density: { enable: true, value_area: 1200 } },
 
-              opacity: { value: 0.5, random: true },
+                color: { value: ['#0b3d91', '#8fce00'] },
 
-              size: { value: 2, random: true },
+                shape: { type: 'circle' },
 
-              line_linked: { enable: true, distance: 140, color: '#5b7db8', opacity: 0.22, width: 1 },
+                opacity: { value: 0.5, random: true },
 
-              move: { enable: true, speed: 0.8, random: true, out_mode: 'out' }
+                size: { value: 2, random: true },
 
-            },
+                line_linked: { enable: true, distance: 140, color: '#5b7db8', opacity: 0.22, width: 1 },
 
-            interactivity: {
+                move: { enable: true, speed: 0.8, random: true, out_mode: 'out' }
 
-              detect_on: 'canvas',
+              },
 
-              events: { onhover: { enable: false }, onclick: { enable: false }, resize: true }
+              interactivity: {
 
-            },
+                detect_on: 'canvas',
 
-            retina_detect: true
+                events: { onhover: { enable: false }, onclick: { enable: false }, resize: true }
 
-          });
+              },
 
-        }
+              retina_detect: true
+
+            });
+
+          } else {
+
+            console.warn('particlesJS not available after load');
+
+          }
+
+        }, 100);
+
+      };
+
+      s.onerror = () => {
+
+        console.error('Failed to load particles.js from CDN');
+
+        // Try alternative CDN
+
+        const s2 = document.createElement('script');
+
+        s2.src = 'https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js';
+
+        s2.async = true;
+
+        s2.onload = () => {
+
+          setTimeout(() => {
+
+            if (typeof particlesJS === 'function') {
+
+              particlesJS('particles-bg', {
+
+                particles: {
+
+                  number: { value: 55, density: { enable: true, value_area: 1200 } },
+
+                  color: { value: ['#0b3d91', '#8fce00'] },
+
+                  shape: { type: 'circle' },
+
+                  opacity: { value: 0.5, random: true },
+
+                  size: { value: 2, random: true },
+
+                  line_linked: { enable: true, distance: 140, color: '#5b7db8', opacity: 0.22, width: 1 },
+
+                  move: { enable: true, speed: 0.8, random: true, out_mode: 'out' }
+
+                },
+
+                interactivity: {
+
+                  detect_on: 'canvas',
+
+                  events: { onhover: { enable: false }, onclick: { enable: false }, resize: true }
+
+                },
+
+                retina_detect: true
+
+              });
+
+            }
+
+          }, 100);
+
+        };
+
+        document.head.appendChild(s2);
 
       };
 
