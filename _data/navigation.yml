@@ -14,7 +14,7 @@ main:
  # - title: "Blog Posts"
   #  url: /year-archive/
 
-  - title: "Professional Work"
+  - title: "Industry Experience"
     url: /engineering-work/
 
   - title: "Cura Learning"
