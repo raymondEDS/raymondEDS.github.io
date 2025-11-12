@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Raymond's Homepage"
+title                    : "The Education Data Scientist"
 title_separator          : "-"
 name                     : &name "Raymond Zhang"
 description              : &description "personal description"
