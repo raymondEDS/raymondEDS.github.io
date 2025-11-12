@@ -119,7 +119,6 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
   - _pages
   - files
 exclude:
@@ -271,6 +270,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 
