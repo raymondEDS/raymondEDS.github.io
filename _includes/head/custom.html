@@ -188,147 +188,241 @@
 
 
 
-    // Inject container after DOM is ready
+    // Configuration for particles
 
-    const onReady = (fn)=> document.readyState !== 'loading' ? fn() : document.addEventListener('DOMContentLoaded', fn);
+    const particlesConfig = {
+
+      particles: {
+
+        number: { value: 250, density: { enable: true, value_area: 1200 } },
+
+        color: { value: ['#0b3d91', '#8fce00'] },
+
+        shape: { type: 'circle' },
+
+        opacity: { value: 0.5, random: true },
+
+        size: { value: 2, random: true },
+
+        line_linked: { enable: true, distance: 140, color: '#5b7db8', opacity: 0.22, width: 1 },
+
+        move: { enable: true, speed: 0.8, random: true, out_mode: 'out' }
+
+      },
+
+      interactivity: {
+
+        detect_on: 'canvas',
+
+        events: { onhover: { enable: false }, onclick: { enable: false }, resize: true }
+
+      },
+
+      retina_detect: true
+
+    };
+
+
+
+    // Initialize particles after everything is ready
+
+    function initParticles() {
+
+      // Ensure container exists and has dimensions
+
+      const container = document.getElementById('particles-bg');
+
+      if (!container) {
+
+        console.warn('Particles container not found');
+
+        return;
+
+      }
+
+
+
+      // Check if particlesJS is available
+
+      if (typeof particlesJS !== 'function') {
+
+        console.warn('particlesJS not available, retrying...');
+
+        setTimeout(initParticles, 100);
+
+        return;
+
+      }
+
+
+
+      // Ensure container has dimensions
+
+      const rect = container.getBoundingClientRect();
+
+      if (rect.width === 0 || rect.height === 0) {
+
+        // Force dimensions if not set
+
+        container.style.width = '100%';
+
+        container.style.height = '100%';
+
+      }
+
+
+
+      try {
+
+        particlesJS('particles-bg', particlesConfig);
+
+      } catch (e) {
+
+        console.error('Error initializing particles:', e);
+
+      }
+
+    }
+
+
+
+    // Wait for DOM to be ready
+
+    const onReady = (fn) => {
+
+      if (document.readyState === 'complete' || document.readyState === 'interactive') {
+
+        setTimeout(fn, 1);
+
+      } else {
+
+        document.addEventListener('DOMContentLoaded', fn);
+
+      }
+
+    };
+
+
 
     onReady(() => {
 
-      // Create background layer
+      // Create background layer with explicit dimensions
 
-      const bg = document.createElement('div');
+      let bg = document.getElementById('particles-bg');
 
-      bg.id = 'particles-bg';
+      if (!bg) {
 
-      Object.assign(bg.style, {
+        bg = document.createElement('div');
 
-        position:'fixed', inset:'0 0 0 0', zIndex:'-2', opacity:'0.9'
+        bg.id = 'particles-bg';
 
-      });
+        Object.assign(bg.style, {
 
-      document.body.appendChild(bg);
+          position: 'fixed',
+
+          top: '0',
+
+          left: '0',
+
+          width: '100%',
+
+          height: '100%',
+
+          zIndex: '-2',
+
+          opacity: '0.9',
+
+          pointerEvents: 'none'
+
+        });
+
+        document.body.insertBefore(bg, document.body.firstChild);
+
+      }
 
 
 
-      // Load particles.js from CDN (with fallback and error handling)
+      // Load particles.js from CDN (sequential loading, not async)
 
-      const s = document.createElement('script');
+      function loadParticlesScript() {
 
-      s.src = 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js';
+        const s = document.createElement('script');
 
-      s.async = true;
+        s.src = 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js';
 
-      s.onload = () => {
+        s.onload = () => {
 
-        // Wait a bit for particlesJS to be available
+          // Wait for particlesJS to be fully available
 
-        setTimeout(() => {
-
-          if (typeof particlesJS === 'function') {
-
-            particlesJS('particles-bg', {
-
-              particles: {
-
-                number: { value: 55, density: { enable: true, value_area: 1200 } },
-
-                color: { value: ['#0b3d91', '#8fce00'] },
-
-                shape: { type: 'circle' },
-
-                opacity: { value: 0.5, random: true },
-
-                size: { value: 2, random: true },
-
-                line_linked: { enable: true, distance: 140, color: '#5b7db8', opacity: 0.22, width: 1 },
-
-                move: { enable: true, speed: 0.8, random: true, out_mode: 'out' }
-
-              },
-
-              interactivity: {
-
-                detect_on: 'canvas',
-
-                events: { onhover: { enable: false }, onclick: { enable: false }, resize: true }
-
-              },
-
-              retina_detect: true
-
-            });
-
-          } else {
-
-            console.warn('particlesJS not available after load');
-
-          }
-
-        }, 100);
-
-      };
-
-      s.onerror = () => {
-
-        console.error('Failed to load particles.js from CDN');
-
-        // Try alternative CDN
-
-        const s2 = document.createElement('script');
-
-        s2.src = 'https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js';
-
-        s2.async = true;
-
-        s2.onload = () => {
-
-          setTimeout(() => {
+          const checkAndInit = () => {
 
             if (typeof particlesJS === 'function') {
 
-              particlesJS('particles-bg', {
+              // Small delay to ensure everything is ready
 
-                particles: {
+              setTimeout(initParticles, 50);
 
-                  number: { value: 55, density: { enable: true, value_area: 1200 } },
+            } else {
 
-                  color: { value: ['#0b3d91', '#8fce00'] },
-
-                  shape: { type: 'circle' },
-
-                  opacity: { value: 0.5, random: true },
-
-                  size: { value: 2, random: true },
-
-                  line_linked: { enable: true, distance: 140, color: '#5b7db8', opacity: 0.22, width: 1 },
-
-                  move: { enable: true, speed: 0.8, random: true, out_mode: 'out' }
-
-                },
-
-                interactivity: {
-
-                  detect_on: 'canvas',
-
-                  events: { onhover: { enable: false }, onclick: { enable: false }, resize: true }
-
-                },
-
-                retina_detect: true
-
-              });
+              setTimeout(checkAndInit, 50);
 
             }
 
-          }, 100);
+          };
+
+          checkAndInit();
 
         };
 
-        document.head.appendChild(s2);
+        s.onerror = () => {
 
-      };
+          console.error('Failed to load particles.js from jsDelivr, trying alternative CDN...');
 
-      document.head.appendChild(s);
+          // Try alternative CDN
+
+          const s2 = document.createElement('script');
+
+          s2.src = 'https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js';
+
+          s2.onload = () => {
+
+            const checkAndInit = () => {
+
+              if (typeof particlesJS === 'function') {
+
+                setTimeout(initParticles, 50);
+
+              } else {
+
+                setTimeout(checkAndInit, 50);
+
+              }
+
+            };
+
+            checkAndInit();
+
+          };
+
+          s2.onerror = () => {
+
+            console.error('Failed to load particles.js from all CDNs');
+
+          };
+
+          document.head.appendChild(s2);
+
+        };
+
+        document.head.appendChild(s);
+
+      }
+
+
+
+      // Start loading the script
+
+      loadParticlesScript();
 
     });
 
