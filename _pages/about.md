@@ -161,7 +161,7 @@ redirect_from:
 <!-- Calls to action -->
 <div class="cta-row">
   <a href="https://www.linkedin.com/in/raymondzeds/" target="_blank">🔗 LinkedIn</a>
-  <a href="https://curalearning.org/" target="_blank">📊 Cura Learning</a>
+  <a href="https://curalearning.org/" target="_blank">🧪 Cura Learning</a>
 </div>
 
 <!-- Disclaimer -->
@@ -394,7 +394,7 @@ redirect_from:
   <ul>
     <li><b>Minnetonka High School – Speech & Debate Advisor</b>: Led team to <a href="https://www.speechanddebate.org/wp-content/uploads/2019-School-Awards-Updated.pdf" target="_blank" rel="noopener">2019 Schools of Excellence in Debate</a>; multiple national and state finalists.</li>
     <li><b>Minnesota Minghua Chinese School</b> — Summer public speaking & debate programs.</li>
-    <li><b>Stanford STHEM</b> — Mentored students who published research on <a href="https://theinformaticists.com/2022/10/03/improving-childrens-social-and-emotional-literacy-using-nlp-based-emotional-detection/" target="_blank" rel="noopener">children’s emotional literacy using NLP</a>.</li>
+    <li><b>Stanford STHEM</b> — Mentored students who published research on <a href="https://github.com/jasminerliu/SHTEM-educational-AI/blob/main/SHTEM_2022.pdf" target="_blank" rel="noopener">children’s emotional literacy using NLP</a>.</li>
   </ul>
 </div>
 <!-- ======= Impact Section ======= -->
