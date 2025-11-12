@@ -236,7 +236,7 @@ redirect_from:
   <a href="https://aclanthology.org/2023.findings-acl.83/" target="_blank" class="publication-link">
     Causal Matching with Text Embeddings: A Case Study in Estimating the Causal Effects of Peer Review Policies
   </a><br>
-  <span style="color:#333;">*Findings of ACL 2023* · 2023</span>
+  <span style="color:#333;">*Findings of ACL 2023* · 2023 | Taught in Stanford's CS 293/EDUC 473 course</span>
   <span style="float:right;">
     <a href="https://github.com/raymondEDS/VRM-E" target="_blank" style="color:#0066cc; text-decoration:none;">🔗 GitHub</a>
   </span>
