@@ -41,6 +41,50 @@ redirect_from:
   border: 1px solid #dbe6ff;
 }
 
+/* Research contributions section */
+.research {
+  margin-top: 0.85rem;
+  background: #f7f9ff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #6a329f;
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+}
+.research h3 {
+  margin: 0 0 .6rem 0;
+  font-size: 1.05rem;
+  color: #0f2167;
+  font-weight: 800;
+}
+.research ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+.research li {
+  margin: 0.65rem 0;
+  padding-left: 1.25rem;
+  position: relative;
+  line-height: 1.6;
+}
+.research li:before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #4C8BF5;
+  font-weight: 600;
+}
+.research a {
+  color: #0b3d91;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.research a:hover {
+  color: #4C8BF5;
+  text-decoration: underline;
+}
+
 /* Compact education list */
 .edu {
   margin-top: 0.85rem;
@@ -99,6 +143,11 @@ redirect_from:
     color: #cfe0ff;
     border-color: rgba(59,130,246,0.25);
   }
+  .research { background: rgba(59,130,246,0.10); border-color: #334155; }
+  .research h3 { color: #e5e7eb; }
+  .research li:before { color: #60a5fa; }
+  .research a { color: #9ec1ff; }
+  .research a:hover { color: #60a5fa; }
   .edu { background: rgba(59,130,246,0.10); border-color: #334155; }
   .edu h3 { color: #e5e7eb; }
   .edu .label { color: #cbd5e1; }
@@ -120,18 +169,30 @@ redirect_from:
 <p class="about-subtle" style="margin: 0 0 0.75rem 0;">
   My name is <b>Raymond</b>. I am an independent education researcher and educator working at the intersection of
   <b>AI</b>, <b>learning sciences</b>, and <b>practical education implementation</b>.
-  My research focuses on applying AI methodologies to education—LLMs, computer vision, experimental design, and NLP—to help students learn to think clearly and advocate with evidence.
+  My research focuses on developing <b>critical thinking educational programs that prepare students for the future</b>.
 </p>
+
 
 <!-- Focus chips -->
 <div style="margin: 0.5rem 0 0.75rem 0;">
   <span class="chip">Learning Sciences</span>
-  <span class="chip">LLMs & NLP</span>
-  <span class="chip">Computer Vision</span>
-  <span class="chip">Experimental Design</span>
   <span class="chip">Debate Centric Curriculum</span>
   <span class="chip">AI in Education</span>
   <span class="chip">Future of Work</span>
+  <span class="chip">LLMs & NLP</span>
+  <span class="chip">Computer Vision</span>
+  <span class="chip">Experimental Design</span>
+</div>
+
+<!-- Research contributions -->
+<div class="research">
+  <h3>🔬 Research contributions to the following institutions:</h3>
+  <ul>
+    <li><a href="https://mimir.stanford.edu/research" target="_blank">Mimir Knowledge Creation Lab at Stanford University</a> — (with Professor <a href="https://profiles.stanford.edu/daniel-mcfarland" target="_blank">Daniel McFarland</a>)</li>
+    <li><a href="https://www.autonomousagents.stanford.edu/people" target="_blank">Stanford Autonomous Agents Lab</a> (with Professor <a href="https://ed.stanford.edu/faculty/nhaber" target="_blank">Nick Haber</a>)</li>
+    <li><a href="https://earlychildhood.stanford.edu/" target="_blank">Stanford Center on Early Childhood</a> (with Professor <a href="https://ed.stanford.edu/faculty/philf" target="_blank">Phil Fisher</a>)</li>
+    <li><a href="https://penn-wonderlab.github.io/" target="_blank">University of Pennsylvania Graduate School of Education Wonder Lab</a> (with Professor <a href="https://www.gse.upenn.edu/academics/faculty-directory/bchen" target="_blank">BoDong Chen</a>)</li>
+  </ul>
 </div>
 
 <!-- Education (concise) -->
@@ -148,14 +209,13 @@ redirect_from:
   </div>
   <div class="row">
     <span class="label">Also attended:</span>
-    National University of Singapore · University of Chicago · Stanford Graduate School of Business (Ignite)
+    National University of Singapore · University of Chicago · Stanford Graduate School of Business
   </div>
 </div>
 
 <!-- Collaboration paragraph -->
 <p style="margin: 0.75rem 0 0 0;">
-  I’m open to collaborating on <b>machine learning for education</b>, <b>public speaking/debate coaching</b>, and
-  <b>supply-chain technologies</b>. If our interests align, let’s talk.
+  I’m open to collaborating on <b>machine learning for education</b>, <b>public speaking/debate coaching</b>. If our interests align, let’s talk.
 </p>
 
 <!-- Calls to action -->
@@ -376,7 +436,7 @@ redirect_from:
 <h2 class="cura-title">🧪 Cura Learning: Research, Data, and Advocacy Lab for Students</h2>
 
 <p>
-  I founded <a href="https://curalearning.org/" target="_blank"><b>Cura Learning</b></a>, an EdTech company focused on developing <b>evidence-based curriculum design</b> that helps students speak confidently and think critically.
+  I founded <a href="https://curalearning.org/" target="_blank"><b>Cura Learning</b></a>, an EdTech company focused on developing <b>evidence-based curriculum</b> that helps students speak confidently and think critically.
   Cura Learning represents the practical implementation of my research in <b>AI-informed education design</b> and <b>learning science</b>.
   Programs at Cura Learning integrate <b>research methodology</b>, <b>critical thinking</b>, and <b>AI literacy</b> to train students as <em>researchers, debaters, and advocates</em>.
 </p>

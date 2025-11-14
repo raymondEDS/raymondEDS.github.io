@@ -88,12 +88,12 @@ permalink: /engineering-work/
 
 <p>
   With over <b>7 years of professional experience</b>, I've built a career that bridges <b>operations, manufacturing, and software engineering</b>.
-  My work focuses on optimizing complex systems—whether in supply chain networks or educational design.
+  My work focuses on optimizing complex systems—whether in supply chain networks.
 </p>
 
 <div class="exp-block">
-  <span class="exp-role">WMS Developer</span> @ <span class="exp-company">ResMed</span> — Present  
-  <br>Developing and maintaining <b>warehouse management systems</b> for healthcare supply chain operations. Focused on data-driven performance optimization, reliability, and scalability.
+  <span class="exp-role">Software Engineer III</span> @ <span class="exp-company">ResMed</span> — Present  
+  <br>Developing and maintaining <b>warehouse management systems</b> for healthcare supply chain operations.
 </div>
 
 <div class="exp-block">
