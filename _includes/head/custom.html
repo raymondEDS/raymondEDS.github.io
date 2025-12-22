@@ -182,12 +182,10 @@
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script>
 
 <script>
-
-  (function(){
-
-    const enableParticles = true;  // <<< set to false to disable the moving node network
-
-    if (!enableParticles) return;
+(function(){
+  'use strict';
+  const enableParticles = true;  // <<< set to false to disable the moving node network
+  if (!enableParticles) return;
 
 
 
@@ -357,18 +355,13 @@
 
         fallbackScript.defer = true;
 
-        fallbackScript.onload = () => {
-
+        fallbackScript.onload = function() {
           retryCount = 0;
-
           waitForParticles();
-
         };
 
-        fallbackScript.onerror = () => {
-
+        fallbackScript.onerror = function() {
           console.error('Failed to load particles.js from all CDNs');
-
         };
 
         document.head.appendChild(fallbackScript);
@@ -380,33 +373,20 @@
 
 
     // Wait for DOM to be ready
-
-    const onReady = (fn) => {
-
+    function onReady(fn) {
       if (document.readyState === 'complete' || document.readyState === 'interactive') {
-
         setTimeout(fn, 1);
-
       } else {
-
         document.addEventListener('DOMContentLoaded', fn);
-
       }
-
-    };
-
+    }
 
 
-    onReady(() => {
 
-      // Start waiting for particles.js to be available
-
+    onReady(function(){
       waitForParticles();
-
     });
-
-  })();
-
+})();
 </script>
 
 
@@ -619,7 +599,7 @@
 
 /* Lightweight scroll progress + scroll-spy for anchor sections */
 
-document.addEventListener('DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', function(){
 
   // Progress bar
 
@@ -645,28 +625,19 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
   const links = Array.from(document.querySelectorAll('.masthead__menu-item a[href^="/#"], .masthead__menu-item a[href^="#"]'));
 
-  const sections = links
-
-    .map(a => document.querySelector(a.getAttribute('href').replace('/', '')))
-
-    .filter(Boolean);
-
-
+  const sections = links.map(function(a) {
+    return document.querySelector(a.getAttribute('href').replace('/', ''));
+  }).filter(Boolean);
 
   if (sections.length){
-
-    const io = new IntersectionObserver((entries)=>{
-
-      entries.forEach(entry=>{
-
+    const io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
         const id = '#' + entry.target.id;
-
-        const link = links.find(a => a.getAttribute('href').endsWith(id));
-
+        const link = links.find(function(a) {
+          return a.getAttribute('href').endsWith(id);
+        });
         if (link) link.classList.toggle('is-active', entry.isIntersecting);
-
       });
-
     }, { rootMargin:'-45% 0px -50% 0px', threshold: 0.01 });
 
 
