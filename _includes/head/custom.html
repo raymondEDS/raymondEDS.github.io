@@ -178,6 +178,9 @@
 
      Toggle the flag below to enable/disable without touching markup. -->
 
+<!-- Load particles.js from CDN (static script tag for better GitHub Pages compatibility) -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script>
+
 <script>
 
   (function(){
@@ -286,6 +289,96 @@
 
 
 
+    // Wait for DOM and particles.js to be ready
+
+    let retryCount = 0;
+
+    const maxRetries = 50; // 5 seconds max wait time
+
+    function waitForParticles() {
+
+      if (typeof particlesJS === 'function') {
+
+        // Create background layer with explicit dimensions
+
+        let bg = document.getElementById('particles-bg');
+
+        if (!bg) {
+
+          bg = document.createElement('div');
+
+          bg.id = 'particles-bg';
+
+          Object.assign(bg.style, {
+
+            position: 'fixed',
+
+            top: '0',
+
+            left: '0',
+
+            width: '100%',
+
+            height: '100%',
+
+            zIndex: '-2',
+
+            opacity: '0.9',
+
+            pointerEvents: 'none'
+
+          });
+
+          document.body.insertBefore(bg, document.body.firstChild);
+
+        }
+
+        // Small delay to ensure container is ready
+
+        setTimeout(initParticles, 50);
+
+      } else if (retryCount < maxRetries) {
+
+        // Retry if particles.js hasn't loaded yet
+
+        retryCount++;
+
+        setTimeout(waitForParticles, 100);
+
+      } else {
+
+        // Fallback: try loading from alternative CDN
+
+        console.warn('Primary CDN failed, trying fallback...');
+
+        const fallbackScript = document.createElement('script');
+
+        fallbackScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js';
+
+        fallbackScript.defer = true;
+
+        fallbackScript.onload = () => {
+
+          retryCount = 0;
+
+          waitForParticles();
+
+        };
+
+        fallbackScript.onerror = () => {
+
+          console.error('Failed to load particles.js from all CDNs');
+
+        };
+
+        document.head.appendChild(fallbackScript);
+
+      }
+
+    }
+
+
+
     // Wait for DOM to be ready
 
     const onReady = (fn) => {
@@ -306,123 +399,9 @@
 
     onReady(() => {
 
-      // Create background layer with explicit dimensions
+      // Start waiting for particles.js to be available
 
-      let bg = document.getElementById('particles-bg');
-
-      if (!bg) {
-
-        bg = document.createElement('div');
-
-        bg.id = 'particles-bg';
-
-        Object.assign(bg.style, {
-
-          position: 'fixed',
-
-          top: '0',
-
-          left: '0',
-
-          width: '100%',
-
-          height: '100%',
-
-          zIndex: '-2',
-
-          opacity: '0.9',
-
-          pointerEvents: 'none'
-
-        });
-
-        document.body.insertBefore(bg, document.body.firstChild);
-
-      }
-
-
-
-      // Load particles.js from CDN (sequential loading, not async)
-
-      function loadParticlesScript() {
-
-        const s = document.createElement('script');
-
-        s.src = 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js';
-
-        s.onload = () => {
-
-          // Wait for particlesJS to be fully available
-
-          const checkAndInit = () => {
-
-            if (typeof particlesJS === 'function') {
-
-              // Small delay to ensure everything is ready
-
-              setTimeout(initParticles, 50);
-
-            } else {
-
-              setTimeout(checkAndInit, 50);
-
-            }
-
-          };
-
-          checkAndInit();
-
-        };
-
-        s.onerror = () => {
-
-          console.error('Failed to load particles.js from jsDelivr, trying alternative CDN...');
-
-          // Try alternative CDN
-
-          const s2 = document.createElement('script');
-
-          s2.src = 'https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js';
-
-          s2.onload = () => {
-
-            const checkAndInit = () => {
-
-              if (typeof particlesJS === 'function') {
-
-                setTimeout(initParticles, 50);
-
-              } else {
-
-                setTimeout(checkAndInit, 50);
-
-              }
-
-            };
-
-            checkAndInit();
-
-          };
-
-          s2.onerror = () => {
-
-            console.error('Failed to load particles.js from all CDNs');
-
-          };
-
-          document.head.appendChild(s2);
-
-        };
-
-        document.head.appendChild(s);
-
-      }
-
-
-
-      // Start loading the script
-
-      loadParticlesScript();
+      waitForParticles();
 
     });
 
