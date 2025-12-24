@@ -273,9 +273,9 @@ redirect_from:
 
 <!-- Paper 5 (Accepted AERA 2026) -->
 <div style="margin-bottom: 0;">
-  <span class="publication-link" style="cursor:default;">
-    Decoding Human and AI Persuasion in National College Debate Through Aristotle’s Rhetorical Principles
-  </span><br>
+  <a href="https://arxiv.org/abs/2512.12817v1" target="_blank" class="publication-link">
+    Decoding Human and AI Persuasion in National College Debate Through Aristotle's Rhetorical Principles
+  </a><br>
   <span style="color:#333;">*Accepted AERA 2026*</span>
 </div>
 
